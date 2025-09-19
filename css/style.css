@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 *{
     margin:0;
     padding:0;
@@ -5,8 +9,7 @@
 }
 
 body{
-    
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:roboto, Helvetica, sans-serif;
     
 }
 
@@ -83,7 +86,7 @@ body{
 }
 
 
-button{
+.hero-btn{
     background-color:#3882f6;
     padding:6px 32px;
     color:#fff;
@@ -130,4 +133,64 @@ button{
 .card{
     width:200px;
     text-align:center;
+}
+
+.quote-section{
+    background-color:#e5e7eb;
+    color:#1f2937;
+    min-height:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.quote-section p{
+    font-size:36px;
+    font-weight:300;
+    width:70%;
+}
+
+.quote-section h3{
+    width:70%;
+    display:flex;
+    justify-content:end;
+}
+
+/* call to action section */
+
+.action{
+    min-height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+}
+
+.action-box{
+    background-color:#3882f6;
+    width:80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:150px;
+   
+}
+
+.action-container{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.action-btn{
+    background-color:#3882f6;
+    color:#fff;
+    border: 3px #fff solid;
+    width:150px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:700;
+
 }
