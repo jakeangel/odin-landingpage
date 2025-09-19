@@ -10,6 +10,8 @@ body{
     
 }
 
+/* header and hero section */
+
 .header-container{
     background-color:#1f2937;
     display:flex;
@@ -59,7 +61,7 @@ body{
 }
 
 
-a{
+.header-container a{
     text-decoration:none;
     color:#e5e7eb;
 }
@@ -91,9 +93,41 @@ button{
 
 }
 
-img{
+.image-container img{
     object-fit:cover;
     border-radius:8px;
     box-shadow: 5px 5px 5px black;
 }
 
+/* random information section */
+
+.info-header{
+    font-size:34px;
+    font-weight:900;
+    color:#1f2937;
+    padding:28px 0;
+    
+}
+
+.card-flexbox{
+    display:flex;
+    justify-content:center;
+    gap:36px;
+}
+
+.card-flexbox .card img{
+    border-radius:12px;
+}
+
+.card-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:36px;
+    min-height:500px;
+}
+
+.card{
+    width:200px;
+    text-align:center;
+}
