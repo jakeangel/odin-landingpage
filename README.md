@@ -1,3 +1,10 @@
-# odin-landingpage
+# Odin-landingpage
 
-This landing page showcases my new found knowledge and skill of css and html. primarily showing how flexbox is used to create layouts for a website.
+This landing page shows how flexbox is used to create layouts for websites.
+
+##Technologies used 
+-Html
+-CSS
+-Git and Github version control
+-MacOS CLI
+
